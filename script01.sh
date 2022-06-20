@@ -1,4 +1,5 @@
 #!/bin/bash
+#Gerar log do backup e copiar para um pendrive
 
 now=$(date +"%d_%m_%Y")
 target=$(mount | grep 'media' | cut -d' ' -f3 | head -1)
