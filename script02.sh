@@ -1,4 +1,5 @@
 #!/bin/bash
+# Criar um arquivo com cada nome listado em Nomes.txt
 
 arquivo=$(cat Nomes.txt)
 
@@ -7,4 +8,3 @@ do
   echo "The name has been read"
   mkdir "${line}"
 done
-
