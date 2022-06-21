@@ -1,4 +1,5 @@
 #!/bin/bash
+# Instalaçao de servidor apache usando MySQL e PHP em ubuntu 18.04
 
 installApache=$(sudo apt update | sudo apt install apache2)
 allowTrafic=$(sudo ufw allow in "Apache Full")
