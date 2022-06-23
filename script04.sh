@@ -12,5 +12,3 @@ tar -cvzf backupFrom$now.tar.gz $target
  
 backup=$(rsync -avz backupFrom$now.tar.gz /home/matheus/scripts/Backups/$weekday) # O erro fala de seending na linha 16.
 $backup
-#Erro atual: A linha em que o backup está presente sempre será referenciada como tendo um erro "linha 17: sending: comando não encontrado"
-#Aparentemente a causa é que o server remoto não tem o rsync instalado
