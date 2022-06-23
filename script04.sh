@@ -1,4 +1,5 @@
 #!/bin/bash
+#Crontab é aplicado para que tal programa seja executado todo dia.
 
 now=$(date +"%d_%m_%Y") 
 weekday=$(date +"%A")
